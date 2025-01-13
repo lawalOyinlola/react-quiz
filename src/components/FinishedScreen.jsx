@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import { useQuiz } from "./QuizContext";
 
 function FinishedScreen() {
   const { points, highscore, maxPossiblePoints, dispatch } = useQuiz();
 
+=======
+/* eslint-disable react/prop-types */
+function FinishedScreen({ points, maxPossiblePoints, highscore, dispatch }) {
+>>>>>>> d336dbe8d01eb4899400e0350b117b48e1f15e68
   const percentage = (points / maxPossiblePoints) * 100;
 
   let emoji;

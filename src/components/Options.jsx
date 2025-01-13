@@ -1,9 +1,13 @@
 /* eslint-disable react/prop-types */
+<<<<<<< HEAD
 import { useQuiz } from "./QuizContext";
 
 function Options({ question }) {
   const { answer, dispatch } = useQuiz();
 
+=======
+function Options({ question, dispatch, answer }) {
+>>>>>>> d336dbe8d01eb4899400e0350b117b48e1f15e68
   const hasAnswered = answer !== null;
 
   return (
